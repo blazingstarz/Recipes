@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "37cf1830be466def",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d42825f4e221f7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "066ff769903cd299",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/recipies/ilish_mach.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba67b3c98b4e4d76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/Recipie.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9086b32fe772cca5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/Recipie.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ac58308448a116d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/recipies/badhakopir_ghonto_cabbage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5623374a7776242a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d7c4ac64e6ad977",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9fcdf383e29a592f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a74965690b4482e8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ea5c84025d02b6d7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4dc8e9f75036d4db",
+    "type": "split",
+    "children": [
+      {
+        "id": "11865eaa60d63502",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a39451acde098d50",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/recipies/badhakopir_ghonto_cabbage.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "34e7aca95e10cda0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/recipies/badhakopir_ghonto_cabbage.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e4a489cfc6c0cbb5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0803319936028090",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/recipies/badhakopir_ghonto_cabbage.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0ac58308448a116d",
+  "lastOpenFiles": [
+    "content/recipies/masoor_dal.md",
+    "content/recipies/lamb_curry.md",
+    "content/recipies/shrimp_curry.md",
+    "content/recipies/lemon_rice.md",
+    "templates/Recipie.md",
+    "content/Contact.md",
+    "content/recipies/bao_bun.md",
+    "content/recipies/beef_stroganoff.md",
+    "content/recipies/garlic_naan.md",
+    "content/recipies/ilish_mach.md"
+  ]
+}
