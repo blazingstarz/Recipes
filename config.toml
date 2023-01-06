@@ -7,11 +7,11 @@ theme = 'hugo-theme-shell'
   # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
   description = "A Collection of Recipes from Around the World"
   [Params.Terminal]
-  # Note: color schema
+  # Note: color scheme
   # Note: You can choose between
   # Note: ["monokai", "powershell", "gruvbox_light", "gruvbox_dark", "solarized_light", "solarized_dark", "ubuntu", "retro"]
   # Note: If you want to use the Goph theme, set it to "goph" (See README.md)
-   schema = "shell-retro"
+   scheme = "shell"
 
   # Note: in terminal
   # [userName]@[pcName]:~/$ cd [workDir]
