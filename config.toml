@@ -1,11 +1,11 @@
-baseURL = 'https://recipies-cedu.onrender.com/'
+baseURL = 'https://recipes-73zj.onrender.com'
 languageCode = 'en-us'
-title = 'Recipies'
+title = 'Recipes'
 theme = 'hugo-theme-shell'
 
 [Params]
   # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
-  description = "A Collection of Recipies from Around the World"
+  description = "A Collection of Recipes from Around the World"
   [Params.Terminal]
   # Note: color schema
   # Note: You can choose between
@@ -26,7 +26,7 @@ theme = 'hugo-theme-shell'
   # Note: result of the tree command
   userName = "blazingstarz"
   pcName = "server"
-  workDir = "documents/recipies"
+  workDir = "documents/recipes"
   profile = "README.txt"
 
   # Note: speed at which text is displayed on the terminal
@@ -52,11 +52,11 @@ theme = 'hugo-theme-shell'
 
   description = """
 
-  Welcome to my collection of recipies from around the world!
+  Welcome to my collection of recipes from around the world!
   
   These are some of my favorite foods to eat and cook!
 
-  Try one of the recipies and let me know what you think!
+  Try one of the recipes and let me know what you think!
 
   Click one of the links below!
   
@@ -71,7 +71,7 @@ theme = 'hugo-theme-shell'
   folderName = "my_collection"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["Recipies", "/recipies"],
+    ["Recipes", "/recipes"],
     ["Tags", "/tags"],
     ["Favorites", "/tags/favorites"],
     ["Blog", "/posts"],
