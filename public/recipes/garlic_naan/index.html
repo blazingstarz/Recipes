@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <title>Garlic_naan</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="" />
+    <style>
+@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";:root{--cursor-visibility:hidden}html,body{width:100%;height:100%;overflow:auto;font-family:inconsolata,monospace;font-size:4vmin;line-height:4.1vmin;font-weight:400}body{margin:0;display:flex;flex-direction:row;justify-content:center;align-items:center}#content{min-width:82vmin;min-height:82vmin}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{border-radius:10px;box-shadow:inset 0 0 1px white}::-webkit-scrollbar-thumb{border-radius:10px;box-shadow:0 0 0 1px white}.cursor,#activity-title:after,#activity-content:after,#cd:after,#whoami:after,#cat:after,#tree:after{visibility:var(--cursor-visibility);content:"|";overflow:hidden;color:#fff;animation:blink 500ms linear infinite alternate}@keyframes blink{0%{opacity:0}100%{opacity:1}}@media only screen and (min-width:768px){body{font-size:2.5vmin;line-height:2.6vmin}#content{min-width:60vmin}}:root{--cursor-visibility:hidden}body{align-items:unset;overflow-y:scroll}#content{max-width:80vmin}pre{overflow-x:scroll;white-space:pre}@keyframes blink{0%{opacity:0}100%{opacity:1}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+body{background:#1b1d1e}body #terminal{color:#BBBBBB}body #user{color:#23E298}body #dir{color:#D08010}body .Typewriter__cursor{color:#BBBBBB}a{color:#BBBBBB}
+
+        
+.navFull {
+    background-color: #353535;
+    font-family: "Courier New";
+    font-size: 17px;
+    display: inline;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 5px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navCredits {
+    float: right;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+#content::after {
+    content: "\a\a";
+    white-space: pre;
+}
+        
+        
+</style>
+
+
+
+</head><body><div id="content">
+    
+    
+    
+
+
+    <span id="activity-title"></span> <br>
+ <span id="activity-content"></span> <br>
+
+<script type="text/javascript">
+    async function typewriter(text, elementId, waitAfter) {
+        var n = 0,
+            isTag = false
+        addText = "";
+        const el = document.getElementById(elementId);
+
+        const wait = () => new Promise(r => setTimeout(r, waitAfter));
+        const nowait = () => new Promise(r => r());
+
+        const render = () => el.innerHTML = (text.slice(0, n + 1) + addText);
+
+        const cursor = document.createElement('span');
+        cursor.id = "blink";
+
+        el.style.setProperty("--cursor-visibility", "visible");
+        while (n < text.length) {
+            if (text.charAt(n + 1) === "<") isTag = true;
+            if (text.charAt(n + 1) === ">") isTag = false;
+
+            if (isTag) {
+                n++;
+                continue;
+            }
+
+            requestAnimationFrame(render);
+
+            if (waitAfter === 0) {
+                await nowait();
+            } else {
+                await wait();
+            }
+
+            n++;
+        }
+        el.style.setProperty("--cursor-visibility", "collapse");
+    }
+
+    function parseDelay(d) {
+        const parsed = parseInt(d, 10);
+        if (isNaN(parsed)) return 0;
+        return parsed;
+    }
+
+    const titleDelay = parseDelay("0"),
+        contentDelay = parseDelay("0");
+    const typeeffetct = async () => {
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003eGarlic_naan\u003c\/h1\u003e\u003c\/span\u003e", "activity-title", titleDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\n\u003cdiv style=\u0022position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;\u0022\u003e\n  \u003ciframe src=\u0022https:\/\/www.youtube.com\/embed\/EqCUENkCQqw\u0022 style=\u0022position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;\u0022 allowfullscreen title=\u0022YouTube Video\u0022\u003e\u003c\/iframe\u003e\n\u003c\/div\u003e\n\n\u003ch2 id=\u0022restaurant-style-garlic-naan\u0022\u003eRestaurant Style Garlic Naan\u003c\/h2\u003e\n\u003cp\u003eSoft and Buttery Homemade Garlic Naan - just like the one from your favorite Indian\nrestaurant! Enjoy it with your favorite curry!\u003c\/p\u003e\n\u003cp\u003ePREP TIME\n15 mins\u003c\/p\u003e\n\u003cp\u003eCOOK TIME\n20 mins\u003c\/p\u003e\n\u003cp\u003eRESTING TIME\n1 hr 30 mins\u003c\/p\u003e\n\u003cp\u003eTOTAL TIME\n2 hrs 5 mins\u003c\/p\u003e\n\u003cp\u003eSERVINGS\n8 naan\u003c\/p\u003e\n\u003cp\u003eCALORIES\n295 kcal\u003c\/p\u003e\n\u003ch2 id=\u0022ingredients\u0022\u003eINGREDIENTS\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003e3.25 cups \u002b3-4 tablepoons all purpose flour 423 grams \u002b 27-36 grams), also known as\nmaida\u003c\/li\u003e\n\u003cli\u003e1 teaspoon salt\u003c\/li\u003e\n\u003cli\u003e1 cup water lukewarm, 8 oz\u003c\/li\u003e\n\u003cli\u003e1 tablespoon sugar\u003c\/li\u003e\n\u003cli\u003e2 teaspoons active dry yeast\u003c\/li\u003e\n\u003cli\u003e1\/3 cup milk lukewarm\u003c\/li\u003e\n\u003cli\u003e2 tablespoons plain yogurt\u003c\/li\u003e\n\u003cli\u003e3 tablespoons oil I used vegetable\u003c\/li\u003e\n\u003cli\u003e2 large garlic cloves grated\u003c\/li\u003e\n\u003cli\u003enigella seeds\/kalonji\u003c\/li\u003e\n\u003cli\u003eGarlic Butter, to brush on naan\u003c\/li\u003e\n\u003cli\u003e3 tablespoons butter I used unsalted\u003c\/li\u003e\n\u003cli\u003e3 tablespoons chopped cilantro\u003c\/li\u003e\n\u003cli\u003e2 teaspoons minced garlic\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch2 id=\u0022instructions\u0022\u003eINSTRUCTIONS\u003c\/h2\u003e\n\u003cp\u003eIn a bowl whisk together 3.25 cups all purpose flour (423 grams) with 1 teaspoon\nsalt. Set it aside.\u003c\/p\u003e\n\u003cp\u003eTo the steel bowl of your stand mixer, add lukewarm water and then add the sugar\nand yeast. Let it bloom for 5-10 minutes. You will know the yeast is activated when\nits all bubbly and frothy on top.\u003c\/p\u003e\n\u003cp\u003eOnce the yeast in activated, add to it lukewarm milk, yogurt and oil.\u003c\/p\u003e\n\u003cp\u003eAdd the flour mixture and mix until combined.\u003c\/p\u003e\n\u003cp\u003eAlso add the grated garlic. Start adding the remaining 3-4 tablespoons of flour\n(27-36 grams). Add 1 tablespoon at a time and add more if the flour is too sticky.\u003c\/p\u003e\n\u003cp\u003eI added around 3-4 tablespoons flour at this point. The dough will be sticky, so do\nnot add more flour to make it dry. It just shouldn\u0026rsquo;t be very sticky.\u003c\/p\u003e\n\u003cp\u003eKnead with hands or with the dough hook attachment of your stand mixer for 1-2\nminutes until the dough is smooth.\nTransfer the dough to a greased bowl.\u003c\/p\u003e\n\u003cp\u003eCover the bowl with a kitchen towel and the the dough rise in a warm place for 60-\n90 minutes. If it cold where you live, pre-heat your oven for few minutes and then\nturn it off. Then place your dough inside the oven (remember the oven should be\noff!)\u003c\/p\u003e\n\u003cp\u003e10- After around 90 minutes, the dough will be more than double in size. Punch the\ndough lightly to release the air.\u003c\/p\u003e\n\u003cp\u003eDivide the dough into 8 equal parts (around 100-105 grams each). Dough will be\nsticky so oil your hands while dividing the dough. Cover the dough balls with a\nkitchen towel and let them rest for 10-15 minutes.\u003c\/p\u003e\n\u003cp\u003eMeanwhile melt 3 tablespoons of butter, add minced garlic and chopped cilantro to\nit. Keep the garlic butter ready to brush on the naan.\u003c\/p\u003e\n\u003cp\u003eHeat up an iron skillet on medium-high heat. I really recommend using an iron\nskillet to make these naan.\u003c\/p\u003e\n\u003cp\u003eTake a dough ball and roll it into an oval shape, around 10 to 11 inches long and 6\ninches wide. Apply little oil on top of the dough before you try to roll it. Also\noil your roller. Do not try to roll the dough like you would roll a\ntortilla\/roti\/paratha. Simply stretch it length wise and then width wise.\u003c\/p\u003e\n\u003cp\u003eDip your finger in water and then sprinkle some nigella seeds on top. This is\noptional.\u003c\/p\u003e\n\u003cp\u003eTransfer the rolled naan onto the hot skillet. Let it cook for couple of minutes\nuntil you see bubbles on top. Brush the naan at this point with the prepared garlic\nbutter.\nWith the help of a tong, remove the naan from skillet, flip and transfer directly\nto the gas. There will be a little mess as the butter will pour down - don\u0026rsquo;t worry,\nit\u0026rsquo;s okay. If you want you can cover your burner with aluminium foil before you\nbegin cooking the naan.\nYou can also skip the step of applying butter at this point and apply it directly\nonce the naan is cooked. I like applying it twice \u0026ndash;\u0026gt;more garlic flavor!\nCook the garlic naan for 15-20 seconds (directly on gas) until nicely golden brown\nfrom both the sides.\nRemove from heat and brush with more garlic butter. Serve these homemade garlic\nnaan with dal makhani or butter paneer!\u003c\/p\u003e\n\u003ch4 id=\u0022to-cook-garlic-naan-in-oven\u0022\u003eTo Cook Garlic Naan in Oven\u003c\/h4\u003e\n\u003cp\u003eTo cook the garlic naan in oven - pre-heat oven to 500 F degrees. Arrange rolled\nnaan on a baking tray and then bake for 4-5 minutes or until golden brown. Remove\nnaan from oven and apply the garlic butter. If you want, you can then place the\nnaan in the oven under broiler to get them charred.\u003c\/p\u003e\n\u003ch3 id=\u0022notes\u0022\u003eNOTES\u003c\/h3\u003e\n\u003cp\u003eThese naan are pretty big. You can make smaller naan if you want!\u003c\/p\u003e\n\u003ch3 id=\u0022nutrition\u0022\u003eNUTRITION\u003c\/h3\u003e\n\u003cp\u003eCalories: 295kcal\nCarbohydrates: 42g\nProtein: 7g\nFat: 10g\nSaturated Fat: 3g\nCholesterol: 12mg\nSodium: 339mg\nPotassium: 104mg\nFiber: 2g\nSugar: 2g\u003c\/p\u003e\n\u003chr\u003e\n\u003c\/span\u003e", "activity-content", contentDelay);
+        return;
+    }
+
+    typeeffetct()
+</script>
+
+        </div>
+        
+        <span class="navFull">
+        
+    
+    
+
+    
+        
+
+<span>
+    <a href="/">Home</a>
+    <span>&#8192;|&#8192;</span>
+    <a href="./..">/recipes/</a>
+</span>
+
+    
+
+        
+        <span class="navCredits">
+            Hugo theme created by
+            <a href="https://github.com/Yukuro/hugo-theme-shell" target="_blank" rel="noopener">Yukuro</a>
+        </span>
+</span>
+
+        
+         
+    </body>
+</html>

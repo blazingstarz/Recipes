@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>salads on Recipies</title>
-    <link>https://recipies-cedu.onrender.com/tags/salads/</link>
-    <description>Recent content in salads on Recipies</description>
+    <title>salads on Recipes</title>
+    <link>https://recipes-73zj.onrender.com/tags/salads/</link>
+    <description>Recent content in salads on Recipes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://recipies-cedu.onrender.com/tags/salads/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://recipes-73zj.onrender.com/tags/salads/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ceasar_salad</title>
-      <link>https://recipies-cedu.onrender.com/recipies/ceasar_salad/</link>
+      <link>https://recipes-73zj.onrender.com/recipes/ceasar_salad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://recipies-cedu.onrender.com/recipies/ceasar_salad/</guid>
+      <guid>https://recipes-73zj.onrender.com/recipes/ceasar_salad/</guid>
       <description>INGREDIENTS: 6 cloves garlic
 3 anchovy filets
 Salt to taste
@@ -25,6 +25,25 @@ Garlic bread Croutons
 Leaves
 INSTRUCTIONS: Method:
 Start by smashing the garlic cloves, sprinkle with kosher salt, and finely chop using the rolling chop method. Chop, gather, chop, gather, and occasionally smear with a knife. Continue this process for 3-5 minutes.</description>
+    </item>
+    
+    <item>
+      <title>Mixecan_Salad</title>
+      <link>https://recipes-73zj.onrender.com/recipes/mexican_salad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://recipes-73zj.onrender.com/recipes/mexican_salad/</guid>
+      <description>Ingredients small bunch of romaine lettuce
+1/2 cup red onions, diced small
+1 cup of cooked sweet corn. You can also use fresh, frozen, or canned.
+1 cup tomato, chopped
+15 ounces of cooked black beans
+(optional) grated cheddar cheese to top the salad
+(optional) avocado cut
+Dressing:
+1/4 cup of fresh lime juice
+1 garlic clove finely minced, about a teaspoon
+1/4 cup of fresh cilantro leaves chopped</description>
     </item>
     
   </channel>
