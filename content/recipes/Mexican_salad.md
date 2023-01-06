@@ -1,5 +1,5 @@
 ---
-title: "Mixecan_Salad"
+title: "Mexican_salad"
 tags: ["salads", ""]
 draft:
 ---
