@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <title>Pork_belly_ramen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="" />
+    <style>
+@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";:root{--cursor-visibility:hidden}html,body{width:100%;height:100%;overflow:auto;font-family:inconsolata,monospace;font-size:4vmin;line-height:4.1vmin;font-weight:400}body{margin:0;display:flex;flex-direction:row;justify-content:center;align-items:center}#content{min-width:82vmin;min-height:82vmin}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{border-radius:10px;box-shadow:inset 0 0 1px white}::-webkit-scrollbar-thumb{border-radius:10px;box-shadow:0 0 0 1px white}.cursor,#activity-title:after,#activity-content:after,#cd:after,#whoami:after,#cat:after,#tree:after{visibility:var(--cursor-visibility);content:"|";overflow:hidden;color:#fff;animation:blink 500ms linear infinite alternate}@keyframes blink{0%{opacity:0}100%{opacity:1}}@media only screen and (min-width:768px){body{font-size:2.5vmin;line-height:2.6vmin}#content{min-width:60vmin}}:root{--cursor-visibility:hidden}body{align-items:unset;overflow-y:scroll}#content{max-width:80vmin}pre{overflow-x:scroll;white-space:pre}@keyframes blink{0%{opacity:0}100%{opacity:1}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+body{background:#000}body #terminal{color:#00f633}body #user{color:#00f633}body #dir{color:#00f633}body .Typewriter__cursor{color:#00f633}a{color:#00f633}
+
+        
+.navFull {
+    background-color: #353535;
+    font-family: "Courier New";
+    font-size: 17px;
+    display: inline;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 5px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navCredits {
+    float: right;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+#content::after {
+    content: "\a\a";
+    white-space: pre;
+}
+        
+        
+</style>
+
+
+
+</head><body><head>
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5R3JPHGY9J"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-5R3JPHGY9J', { 'anonymize_ip': false });
+}
+</script>
+
+</head>
+
+<div id="content">
+    
+    
+    
+
+
+    <span id="activity-title"></span> <br>
+ <span id="activity-content"></span> <br>
+
+<script type="text/javascript">
+    async function typewriter(text, elementId, waitAfter) {
+        var n = 0,
+            isTag = false
+        addText = "";
+        const el = document.getElementById(elementId);
+
+        const wait = () => new Promise(r => setTimeout(r, waitAfter));
+        const nowait = () => new Promise(r => r());
+
+        const render = () => el.innerHTML = (text.slice(0, n + 1) + addText);
+
+        const cursor = document.createElement('span');
+        cursor.id = "blink";
+
+        el.style.setProperty("--cursor-visibility", "visible");
+        while (n < text.length) {
+            if (text.charAt(n + 1) === "<") isTag = true;
+            if (text.charAt(n + 1) === ">") isTag = false;
+
+            if (isTag) {
+                n++;
+                continue;
+            }
+
+            requestAnimationFrame(render);
+
+            if (waitAfter === 0) {
+                await nowait();
+            } else {
+                await wait();
+            }
+
+            n++;
+        }
+        el.style.setProperty("--cursor-visibility", "collapse");
+    }
+
+    function parseDelay(d) {
+        const parsed = parseInt(d, 10);
+        if (isNaN(parsed)) return 0;
+        return parsed;
+    }
+
+    const titleDelay = parseDelay("0"),
+        contentDelay = parseDelay("0");
+    const typeeffetct = async () => {
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003ePork_belly_ramen\u003c\/h1\u003e\u003c\/span\u003e", "activity-title", titleDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\n\u003cdiv style=\u0022position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;\u0022\u003e\n  \u003ciframe src=\u0022https:\/\/www.youtube.com\/embed\/YcNxPNrjkEU\u0022 style=\u0022position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;\u0022 allowfullscreen title=\u0022YouTube Video\u0022\u003e\u003c\/iframe\u003e\n\u003c\/div\u003e\n\n\u003ch2 id=\u0022ingredients\u0022\u003eIngredients\u003c\/h2\u003e\n\u003cp\u003eFor Chashu (braised pork belly)\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e3cm thick belly pork\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tbsp. soy sauce\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tbsp. mirin\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1\/2 tbsp. cooking sake\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tbsp. sugar\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tsp salt\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 clove garlic\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e(same amount of) ginger - around 5g\u003c\/p\u003e\n\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003eFor broth:\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e10g of kombu dried kelp\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e20g niboshi sardines\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1L water\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e450g chicken mince\u003c\/p\u003e\n\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003eFor Aji-Tama Soft Boiled Eggs:\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e1 egg per serving\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e7 tbsp. soy sauce\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e4 tbsp. water\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tbsp. mirin\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tsp. cooking sake\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tsp. sugar\u003c\/p\u003e\n\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003eRamen\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003edried ramen noodles (one serving per bowl)\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1\/4 green onion (for topping and to add to ramen)\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tsp of salt (to add to the broth)\u003c\/p\u003e\n\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch2 id=\u0022directions\u0022\u003eDirections\u003c\/h2\u003e\n\u003cp\u003eFor Chashu:\u003c\/p\u003e\n\u003col\u003e\n\u003cli\u003eTake one block of pork belly around 3cm (leave to reach room temperature for one hour before preparing)\u003c\/li\u003e\n\u003cli\u003eWipe off any moisture from the pork before tying around the block with kitchen twine. Knot the twine firmly, then do the same for the length of the pork (this will help the pork stay moist and help it keep its shape).\u003c\/li\u003e\n\u003cli\u003eIn a ziplock bag, add  1 tbsp. soy sauce, 1 tbsp. mirin, ½ tbsp. cooking sake, 1 tbsp. sugar, 1 tsp. salt, 1 clove garlic, and the same amount of ginger (around 5g).\u003c\/li\u003e\n\u003cli\u003eMix those ingredients together in the bag and then add the pork. Make sure to take out any air from the bag\u003c\/li\u003e\n\u003cli\u003eEither use a low temperature cooker or a saucepan with a cooking thermometer and keep your water at around 63°C (145°F), place the ziplock bag in the water and leave cooking for 80 mins.\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cp\u003eFor broth:\u003c\/p\u003e\n\u003col\u003e\n\u003cli\u003eLet the ingredients for the ramen broth soak in water. Take 10g of dried kombu kelp and 20g of niboshi sardines and let soak in 1L of water for 30 minutes to 1 hour.\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cp\u003eFor aji-tama eggs:\u003c\/p\u003e\n\u003col\u003e\n\u003cli\u003ePrepare the aji-tama soft boiled eggs (1 egg per serving). To make the eggs easier to peel, place a small hole in the round side of the egg before adding to boiling water for 6 minutes.\u003c\/li\u003e\n\u003cli\u003eOnce 6 minutes is up, take the eggs out and add immediately to cold water under a running tap for 1 minute\u003c\/li\u003e\n\u003cli\u003ePeel the eggs. In a ziplock bag, add 7 tbsp. soy sauce, 4 tbsp. water, 1 tbsp. mirin, 1 tsp. cooking sake and 1 tsp sugar - mix the ingredients well and add the eggs - let sit for at least 30 minutes.\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cp\u003eFor broth:\u003c\/p\u003e\n\u003col\u003e\n\u003cli\u003eTake the soaked ingredients from before and run the liquid through a sieve into a saucepan or stock-pot.\u003c\/li\u003e\n\u003cli\u003eThen add 450g of chicken mince (or chicken stock) and break apart with a spatula\u003c\/li\u003e\n\u003cli\u003eTurn up to a medium heat and keep stirring to avoid the chicken clumping at the bottom of the pan.\u003c\/li\u003e\n\u003cli\u003eAdd the niboshi sardines and kombu back from before.\u003c\/li\u003e\n\u003cli\u003eKeep stirring until you see the broth reach about 60°C (140°C) and the protein starts to float to the top of the liquid.\u003c\/li\u003e\n\u003cli\u003eBefore the broth begins to boil, take out the kombu to avoid your soup becoming bitter\u003c\/li\u003e\n\u003cli\u003ePut a lid on the broth and let simmer for 30 mins (check occasionally and get rid of any foam that surfaces on the top to improve the flavour)\u003c\/li\u003e\n\u003cli\u003eOnce 30 minutes is done - drain the ramen and remove all the solid ingredients, and your broth is done!\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cp\u003eFor the ramen (finishing the toppings):\u003c\/p\u003e\n\u003col\u003e\n\u003cli\u003eTake 1\/4 green onion and cut a slice down the outer layer. Cut that into thin strips and let it soak in water for a few minutes.\u003c\/li\u003e\n\u003cli\u003eFor the inner layer, chop it into small chunks. This will be a topping for your ramen\u003c\/li\u003e\n\u003cli\u003eOnce 80 mins is done for your chashu pork, braize the outside fatty layer with a cooking blow-torch, oven, or fry pan.\u003c\/li\u003e\n\u003cli\u003eCut your pork into small medallions to add as a topping.\u003c\/li\u003e\n\u003cli\u003eCut your aji-tama eggs in half. If they’re cooked right, they should still be slightly runny inside.\u003c\/li\u003e\n\u003cli\u003eBoil the noodles (either fresh or dried) for the time specified on the packaging. Whilst the noodles are boiling, heat up your broth from before and also warm your ramen bowl with hot water.\u003c\/li\u003e\n\u003cli\u003eWhen the noodles are done cooking, throw away the water, add 360ml of your ramen broth to a bowl, add 1 tsp of salt and mix\u003c\/li\u003e\n\u003cli\u003eDrain the noodles. Add them to the broth, top with onions, chashu pork and aji-tama and enjoy your perfect ramen.\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003c\/span\u003e", "activity-content", contentDelay);
+        return;
+    }
+
+    typeeffetct()
+</script>
+
+        </div>
+        
+        <span class="navFull">
+        
+    
+    
+
+    
+        
+
+<span>
+    <a href="/">Home</a>
+    <span>&#8192;|&#8192;</span>
+    <a href="./..">/_drafts/</a>
+</span>
+
+    
+
+        
+        <span class="navCredits">
+            Powered by
+            <a href="https://instagram.com/blazingst4rz" target="_blank" rel="noopener">V</a>
+        </span>
+</span>
+
+        
+         
+    </body>
+</html>
