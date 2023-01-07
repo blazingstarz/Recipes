@@ -12,6 +12,7 @@ theme = 'hugo-theme-shell'
   # Note: ["monokai", "powershell", "gruvbox_light", "gruvbox_dark", "solarized_light", "solarized_dark", "ubuntu", "retro"]
   # Note: If you want to use the Goph theme, set it to "goph" (See README.md)
    schema = "shell"
+   favicon = "/static/favicon.ico"
 
   # Note: in terminal
   # [userName]@[pcName]:~/$ cd [workDir]
@@ -78,5 +79,3 @@ theme = 'hugo-theme-shell'
     ["Contact", "/Contact.md"],
   ]
  
-  [params.meta]
-    favicon = false
