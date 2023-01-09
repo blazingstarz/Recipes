@@ -4,7 +4,7 @@ tags: ["itallian", ""]
 draft:
 ---
 
-{{< youtube 3eb5Kk1VS9w  >}}
+{{< youtube 3eb5Kk1VS9w >}}
 
 ## Ingredients
 
