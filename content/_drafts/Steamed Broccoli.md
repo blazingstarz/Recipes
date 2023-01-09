@@ -4,7 +4,7 @@ tags: ["american", ""]
 draft:
 ---
 
-{{< youtube WrHDrcHihRc&t=35s  >}}
+{{< youtube WrHDrcHihRc >}}
 
 ## Ingredients
 
