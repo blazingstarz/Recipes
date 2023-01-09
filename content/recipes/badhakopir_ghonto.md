@@ -1,5 +1,5 @@
 ---
-title: "Badhakopir_ghonto_cabbage"
+title: "Badhakopir_ghonto"
 tags: ["indian", "staples"]
 draft: 
 ---
