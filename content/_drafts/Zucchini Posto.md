@@ -1,5 +1,5 @@
 ---
-title: "Zucchini_postho"
+title: "Zucchini_posto"
 tags: ["indian", ""]
 draft:
 ---
