@@ -4,7 +4,7 @@ tags: ["indian", ""]
 draft:
 ---
 
-{{< youtube C-WYjMNZW0Q&t=25s  >}}
+{{< youtube C-WYjMNZW0Q >}}
 
 ## Ingredients
 
