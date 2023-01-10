@@ -2,7 +2,7 @@ baseURL = 'https://blazingstarz.xyz'
 languageCode = 'en-us'
 title = 'Recipes'
 theme = 'hugo-theme-shell'
-googleAnalytics = "G-5R3JPHGY9J"
+googleAnalytics = 
 
 [Params]
   # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
