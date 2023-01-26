@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <title>Seekh_kebab</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="" />
+    <style>
+@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";:root{--cursor-visibility:hidden}html,body{width:100%;height:100%;overflow:auto;font-family:inconsolata,monospace;font-size:4vmin;line-height:4.1vmin;font-weight:400}body{margin:0;display:flex;flex-direction:row;justify-content:center;align-items:center}#content{min-width:82vmin;min-height:82vmin}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{border-radius:10px;box-shadow:inset 0 0 1px white}::-webkit-scrollbar-thumb{border-radius:10px;box-shadow:0 0 0 1px white}.cursor,#activity-title:after,#activity-content:after,#cd:after,#whoami:after,#cat:after,#tree:after{visibility:var(--cursor-visibility);content:"|";overflow:hidden;color:#fff;animation:blink 500ms linear infinite alternate}@keyframes blink{0%{opacity:0}100%{opacity:1}}@media only screen and (min-width:768px){body{font-size:2.5vmin;line-height:2.6vmin}#content{min-width:60vmin}}:root{--cursor-visibility:hidden}body{align-items:unset;overflow-y:scroll}#content{max-width:80vmin}pre{overflow-x:scroll;white-space:pre}@keyframes blink{0%{opacity:0}100%{opacity:1}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+body{background:#000}body #terminal{color:#00f633}body #user{color:#00f633}body #dir{color:#00f633}body .Typewriter__cursor{color:#00f633}a{color:#00f633}
+
+        
+.navFull {
+    background-color: #353535;
+    font-family: "Courier New";
+    font-size: 17px;
+    display: inline;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 5px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navCredits {
+    float: right;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+#content::after {
+    content: "\a\a";
+    white-space: pre;
+}
+        
+        
+</style>
+
+
+
+</head><body><head>
+    
+</head>
+
+<div id="content">
+    
+    
+    
+
+
+    <span id="activity-title"></span> <br>
+ <span id="activity-content"></span> <br>
+
+<script type="text/javascript">
+    async function typewriter(text, elementId, waitAfter) {
+        var n = 0,
+            isTag = false
+        addText = "";
+        const el = document.getElementById(elementId);
+
+        const wait = () => new Promise(r => setTimeout(r, waitAfter));
+        const nowait = () => new Promise(r => r());
+
+        const render = () => el.innerHTML = (text.slice(0, n + 1) + addText);
+
+        const cursor = document.createElement('span');
+        cursor.id = "blink";
+
+        el.style.setProperty("--cursor-visibility", "visible");
+        while (n < text.length) {
+            if (text.charAt(n + 1) === "<") isTag = true;
+            if (text.charAt(n + 1) === ">") isTag = false;
+
+            if (isTag) {
+                n++;
+                continue;
+            }
+
+            requestAnimationFrame(render);
+
+            if (waitAfter === 0) {
+                await nowait();
+            } else {
+                await wait();
+            }
+
+            n++;
+        }
+        el.style.setProperty("--cursor-visibility", "collapse");
+    }
+
+    function parseDelay(d) {
+        const parsed = parseInt(d, 10);
+        if (isNaN(parsed)) return 0;
+        return parsed;
+    }
+
+    const titleDelay = parseDelay("0"),
+        contentDelay = parseDelay("0");
+    const typeeffetct = async () => {
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003eSeekh_kebab\u003c\/h1\u003e\u003c\/span\u003e", "activity-title", titleDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\n\u003cdiv style=\u0022position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;\u0022\u003e\n  \u003ciframe src=\u0022https:\/\/www.youtube.com\/embed\/_6ZnbxlErUo\u0022 style=\u0022position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;\u0022 allowfullscreen title=\u0022YouTube Video\u0022\u003e\u003c\/iframe\u003e\n\u003c\/div\u003e\n\n\u003ch2 id=\u0022ingredients\u0022\u003eIngredients\u003c\/h2\u003e\n\u003cp\u003eFor marination:\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e300 g Mutton Kheema, with fat\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003eSalt to taste\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e2 tbsp Ginger Garlic paste\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e4 Green chillies (less spicy, chopped)\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 1\/2 tbsp Coriander leaves, chopped\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tbsp fresh Mint leaves, chopped\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1\/4 cup Processed cheese, grated\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e6-7 Cashewnut, chopped\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e4-5 Almonds, chopped\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1\/2 tbsp Degi red chilli powder\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tsp Coriander powder\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tsp Coriander seeds, roughly crushed\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tsp Shahi jeera\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e3-4 Black cardamom, seeds\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e5-6 Black peppercorns\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e600 g Mutton Kheema\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e2 Hard-Boiled eggs, grated\u003c\/p\u003e\n\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003eFor smoke:\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003ecoal, 2-3 cloves\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tsp Ghee\u003c\/p\u003e\n\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003eFor Seekh Kabab Masala\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e1 1\/2 tbsp Oil\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tsp Cumin seeds\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e2 medium size onion, sliced\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tsp Coriander seeds, roughly crushed\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1\/2 tsp Turmeric powder\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tsp Coriander powder\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003eA pinch of asafoetida\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tsp ginger-garlic paste\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 heaped tsp Degi red chilli powder\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1\/3 cup tomato puree\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003esalt to taste\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e2-4 green chillies, chopped\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1 tbsp Coriander leaves, chopped\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e1\/4 cup water\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003esalt to taste\u003c\/p\u003e\n\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003eOther Ingredients\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eoil for roasting\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003eghee for basting\u003c\/p\u003e\n\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003eFor Garnish\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eonion rings\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003efresh Mint leaves\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003ecoriander sprig\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003elemon wedges\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003eginger, julienned\u003c\/p\u003e\n\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch2 id=\u0022directions\u0022\u003eDirections\u003c\/h2\u003e\n\u003cp\u003eFor Marination:\u003c\/p\u003e\n\u003col\u003e\n\u003cli\u003eIn a large bowl, add half mutton keema along with fat, salt to taste, ginger garlic paste, green chillies.\u003c\/li\u003e\n\u003cli\u003eAdd coriander leaves, mint leaves, processed cheese, cashewnut, almonds, degii red chili powder.\u003c\/li\u003e\n\u003cli\u003eNow, add coriander powder, coriander seeds, shahi jeera, crushed black cardamom, black peppercorns and mix well.\u003c\/li\u003e\n\u003cli\u003eTransfer it into a grinder jar and grind until smooth in texture.\u003c\/li\u003e\n\u003cli\u003eNow, add remaining mutton keema, hard boiled eggs and mix everything well.\u003c\/li\u003e\n\u003cli\u003eNow, place the smoked charcoal bowl in it and cover it for 4-5 minutes.\u003c\/li\u003e\n\u003cli\u003eRemove the charcoal and refrigerate the kheema until completely cool.\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cp\u003eFor Smoke:\u003c\/p\u003e\n\u003col\u003e\n\u003cli\u003eTake a piece of coal and heat it up on high flame. Once it gets hot enough, place it in a steel bowl along with cloves and add a few drops of ghee in it.\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cp\u003eFor Seekh Kabab Masala:\u003c\/p\u003e\n\u003col\u003e\n\u003cli\u003eIn a shallow pan, add oil once it\u0026rsquo;s hot, add cumin seeds and let it splutter well.\u003c\/li\u003e\n\u003cli\u003eAdd onion, coarsely grind coriander seeds and saute it well until light golden in color.\u003c\/li\u003e\n\u003cli\u003eAdd turmeric powder, coriander powder, asafoetida and saute for 10-15 seconds nicely.\u003c\/li\u003e\n\u003cli\u003eNow, add ginger garlic paste and saute, once ginger garlic paste cook well add degi red chili powder and saute for a while.\u003c\/li\u003e\n\u003cli\u003eAdd tomato puree and let it cook for a while, add salt to taste and saute nicely.\u003c\/li\u003e\n\u003cli\u003eAdd green chili, coriander leaves, mix well, add water and salt to taste.\u003c\/li\u003e\n\u003cli\u003eOnce masala is cooked well, switch off the flame and keep it aside for further use.\u003c\/li\u003e\n\u003cli\u003eAdd prepared seekh kebabs into masala, cover it with lid and toss well.\u003c\/li\u003e\n\u003cli\u003eGarnish with green chutney, onion rings, ginger julienne, lemon wedge and mint sprig.\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cp\u003eFor Mutton Seekh Kebab:\u003c\/p\u003e\n\u003col\u003e\n\u003cli\u003eApply water on both palms, make medium potato size balls, take ice cream stick place into the middle of the prepared ball and press slowly slowly top to bottom of the ball and make seekh kebab.\u003c\/li\u003e\n\u003cli\u003eKeep in the fridge for a while.\u003c\/li\u003e\n\u003cli\u003eTake grilled pan or sizzler plate on high flame, add oil once oil gets hot, place prepared seekh kebabs and roast until nice golden brown in color and cooked well from both the sides.\u003c\/li\u003e\n\u003cli\u003eOnce seekh kebabs cook well, switch off the flame and remove into plate.\nServe hot with rumali roti and mint chutney.\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003c\/span\u003e", "activity-content", contentDelay);
+        return;
+    }
+
+    typeeffetct()
+</script>
+
+        </div>
+        
+        <span class="navFull">
+        
+    
+    
+
+    
+        
+
+<span>
+    <a href="/">Home</a>
+    <span>&#8192;|&#8192;</span>
+    <a href="./..">/recipes/</a>
+</span>
+
+    
+
+        
+        <span class="navCredits">
+            Powered by
+            <a href="https://instagram.com/blazingst4rz" target="_blank" rel="noopener">V</a>
+        </span>
+</span>
+
+        
+         
+    </body>
+</html>
